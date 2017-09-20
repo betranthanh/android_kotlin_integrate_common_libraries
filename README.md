@@ -1,4 +1,4 @@
-# ButterKnife
+# Butter Knife [http://jakewharton.github.io/butterknife/](http://jakewharton.github.io/butterknife/)
 ### app/build.gradle
 ```gradle
 kapt {
