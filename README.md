@@ -1,5 +1,5 @@
-# Butter Knife [http://jakewharton.github.io/butterknife/](http://jakewharton.github.io/butterknife/)
-### app/build.gradle
+## Butter Knife [http://jakewharton.github.io/butterknife/](http://jakewharton.github.io/butterknife/)
+#### app/build.gradle
 ```gradle
 kapt {
     generateStubs = true
@@ -10,7 +10,7 @@ dependencies {
 }
 ```
 
-### MainActivity.kt
+#### MainActivity.kt
 ```java
 @BindView(R.id.text_view) lateinit var textView: TextView
 
@@ -25,7 +25,7 @@ fun onClickText() {
 }
 ```
 
-### MainFragment.kt
+#### MainFragment.kt
 ```java
 @BindView(R.id.text_view) lateinit var textView: TextView
 private lateinit var unbinder: Unbinder
